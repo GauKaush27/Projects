@@ -3,17 +3,119 @@
     font-family: "Segoe UI", Arial, sans-serif;
     border: border-box;
 }  
-.navbar{
+.navbar {
     height: 60px;
-    background-color: #0f1111;
+    background-color: #003d32;
     color: white;
+    display: flex;
+    align-items: center; /*centers logo vertically*/
+    /* justify-content: space-evenly; */
+    
+    /* background-color: #003d32; */
 }
-.nav-logo{
-    height: 60px;
+
+.nav-logo {
+    height: 56px;
+    width: 113px;
+    padding-top: 4px;
+    margin-left: 1px;
+    background-color: #003d32;
+    /* border: 10px; */
 }
-.logo{
-    background-image: url("Images/India_bazzar_logo.png");
-    background-size: co;
-    height: 50px;
-    width: 114px;
+.logo {
+    height: 49px;
+    width: 99px;   
+    padding : 1px 8px 0px 6px ;
+    margin : 1px;
+    background-color: #003d32;
+    object-fit: contain;  /* shows full logo */
 }
+.border{
+    border : 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white ;
+}
+/* .address-first{
+    color: #CCCCCC;
+    font-size: 12px;
+
+}
+.address-second{
+    color: #ffffff;
+    font-size: 14px ;
+    font-weight: bold;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+#location-tag{
+    margin-top: 8px;
+} */
+.nav-location{
+ display: flex;
+ align-items: center;
+ /* padding : 0px 9px 0px 9px; */
+ margin : 5px 2px 5px 0px ;
+ height: 50px;
+}
+.nav-location i{
+    margin-top: 8px;
+    margin-right: 3px;
+    width: 15px;
+    height: 18px;
+    margin-right: 4px;
+}
+.line1{
+    font-size: 13px;
+    color: #CCCCCC;
+    width: 50 px;
+    height: 14px;
+}
+.line2{
+    font-size: 14px;
+    font-weight: bold;
+    width: 50 px;
+    height: 16 px;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 8px;
+    overflow: hidden; /* IMPORTANT */
+}
+#seach-dropdown{
+     width:50px;
+     padding-left: 5px;
+     color: #666666;
+     background-color: #e6e6e6;
+     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0px;
+    /*height:40px;
+    border:1px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.nav-search input{
+  width:490px;
+  font: 25px;
+  font-size: medium;
+}
+.search-icon{
+    width: 45px;
+    height:40px;
+    background-color: #a9176f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.search-icon i{
+    font-size: 18px;
+}
+
